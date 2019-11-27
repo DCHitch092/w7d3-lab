@@ -1,6 +1,7 @@
 <template lang="html">
 
-<li v-on:click="clickOnCountry">{{ country.name }} img src = {{ country.flag }} </li>
+<!-- <li v-on:click="clickOnCountry">{{ country.name }} img src = {{ country.flag }} </li> -->
+<option :select="clickOnCountry"><p>{{ country.name }}</p> </option>
 </template>
 
 <script>

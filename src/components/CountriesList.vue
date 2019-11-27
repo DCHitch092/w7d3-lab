@@ -1,8 +1,11 @@
 <template lang="html">
 <div class="">
-  <ul>
+  <!-- <ul>
     <list-component v-for="(country, index) in countriesproperty" :country="country" :index="index"></list-component>
-  </ul>
+  </ul> -->
+  <select  name="">
+    <list-component v-for="(country, index) in countriesproperty" :country="country" :value="index"></list-component>
+  </select>
 </div>
 </template>
 

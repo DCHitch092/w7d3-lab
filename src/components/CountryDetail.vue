@@ -3,6 +3,7 @@
     <h1>{{country.name}}</h1>
     <p>{{country.capital}}</p>
     <p>{{country.population}}</p>
+    <img v-attr="src = country.flag" />
   </div>
 
 </template>
